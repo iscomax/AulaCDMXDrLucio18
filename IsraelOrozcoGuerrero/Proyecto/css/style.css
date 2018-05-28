@@ -3,12 +3,16 @@
 
 body {
    background-image: URL(../images/IMGFONDO.jpg);
+   background-repeat:no-repeat;
+   background-size: 100% 100%; 
+font-family: 'Open Sans', sans-serif;
+font-family: 'Exo 2', sans-serif;
 }
 .header {
     width: 100%;
 }
 .header {
-    background-color: #f1f1f1;
+    background-color:URL(../images/TITLE.jpg);
     padding: 20px;
     text-align: center;
 }
