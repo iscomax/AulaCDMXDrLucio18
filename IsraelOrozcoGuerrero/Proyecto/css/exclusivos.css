@@ -1,0 +1,11 @@
+.imagenp{
+    position: relative;
+    display: inline-block;
+    width: 15%;
+    
+}
+.imageno{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
