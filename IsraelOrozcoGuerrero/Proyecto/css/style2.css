@@ -1,0 +1,38 @@
+*{ box-sizing: 0;
+}
+.header {
+    width: 100%;
+}
+.header {
+    background-color:URL(../images/WELCOME.jpg);
+    padding: 20px;
+    text-align: center;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 15px;
+}
+.fondo
+{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+
+}
+
+.oferta
+{
+    position: relative;
+    display: inline;
+    width: 20%;
+
+}
+
+/* Clear floats after the columns */
+    .row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
