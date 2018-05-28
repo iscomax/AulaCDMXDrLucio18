@@ -31,3 +31,26 @@ table{
 .margin{
   padding: 50px 50px 50px 50px;
 }
+.mov1{
+  float: right;
+}
+.ofunam {
+  display: block;
+  margin: 0;
+}
+.mov2{
+  float: right;
+}
+
+.btn{
+  margin-top: 25%;
+  
+}
+.imgboton{
+ 
+ width: 25px;
+ height: 25px;
+padding-top: 0px;
+
+}
+
