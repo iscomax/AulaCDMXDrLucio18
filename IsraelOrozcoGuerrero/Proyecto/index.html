@@ -26,7 +26,7 @@
                 <h2>Curso de fotografia en contra luz</h2>
         </section>
             <h2>
-                <li>
+                <ol>
                        <h3>Temario Curso Nivel 1</h3> 
 
                         <li>Introduction</li>
@@ -38,10 +38,11 @@
                         <li>Metodologías ágiles</li>
                         <li>Bibliografía</li>
                 
-                </li>
+                </ol>
             </div>
-            <div class="column">
+            
             </h2>
+            <div class="column">
             <img src ="https://goo.gl/gCnPt6"style="width:250px;height:300px;">
             <section>
                     <h1>Definicion de contra luz</h1>
@@ -50,7 +51,7 @@
                     <h2>Curso de fotografia en contra luz</h2>
             </section>
                 <h2>
-                    <li>
+                    <ol>
                            <h3>Temario Curso Nivel 1</h3> 
     
                             <li>Introduction</li>
@@ -62,17 +63,49 @@
                             <li>Metodologías ágiles</li>
                             <li>Bibliografía</li>
                     
-                    </li>
+                    </ol>
                 </h2>
             </div>
-            <form action="C:\Users\AULA 19\Desktop\AulaCDMXDrLucio18\IsraelOrozcoGuerrero\Proyecto\exclusivos.html" method="get">
-                Email: <input type="text" name="email"><br>
-                Password: <input type="text" name="password"><br>
-                <input type="submit" value="Submit">
-              </form>
-
-            
-            <div class="footer">
+            <form name="Login"> 
+                <table width="200" border="10"> 
+                  <tr> 
+                    <th scope="row"><h2>Usuario</h2></th> 
+                    <td><span class="cnt"> 
+                      <input name="usuario" type="text" class="Input" value="" size="20" /> 
+                    </span></td> 
+                  </tr> 
+                  <tr> 
+                    <th height="33" scope="row"><h2>Clave</h2></th> 
+                    <td><span class="cnt"> 
+                      <input name="password" type="password" class="Input" value="" size="20" /> 
+                    </span></td> 
+                    <td><span class="cnt"> 
+                      <input value="Entrar" target="_parent" onclick="Login()" type="button" class="boton"/> 
+                    </span></td> 
+                  </tr> 
+                  <tr> 
+                    <th scope="row"><input type="reset" name="Borrar" id="Borrar" value="Reset" class="boton" /></th> 
+                  </tr> 
+                </table> 
+           </form>
+           <script > 
+            function Login(){ 
+            var done=0; 
+            var usuario=document.login.usuario.value; 
+            var password=document.login.password.value; 
+            if (usuario=="USUARIO1" && password=="CONTRASEÑA1") { 
+            window.location="exclusivos.html"; 
+            } 
+            if (usuario=="USUARIO2" && password=="CONTRASEÑA2") { 
+            window.location="exclusivos.html"; 
+            } 
+            if (usuario=="" || password==""||usuario!=="USUARIO1"||usuario!=="USUARIO2") { 
+                alert("Nombre de usuario o contraseña incorrecta");
+           
+            } 
+            } 
+        </script> 
+            <div id="footer">
             
                 <p>Medio de contacto </p>
                 <p>fotosmile.com</p>

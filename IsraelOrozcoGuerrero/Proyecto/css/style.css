@@ -28,8 +28,11 @@ font-family: 'Exo 2', sans-serif;
     display: table;
     clear: both;
 }
-.footer {
-    background-color: #F1F1F1;
-    text-align: center;
-    padding: 10px;
-}
+#footer {
+    position: relative;
+    clear:both;
+    height:150px;
+    margin-top: -150px;
+    background: green;
+   }
+
