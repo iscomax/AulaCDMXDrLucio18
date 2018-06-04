@@ -2,17 +2,22 @@
 <html lang="es" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <title>formulario</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous"/>
     <link rel="stylesheet" href="recursos/css/style.css">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous"/>
   </head>
   <body>
-    <div class="contanier">
-      <div class="row">
-        <div class="col-sm-12 uno">
-          <h1>Aquí encontrarás todas las actividades de música</h1>
+    <header>
+
+      <div class="contanier">
+        <div class="row uno">
+          <div class="col-sm-12 ">
+            <h1>Suscríbete a nuestro blog</h1>
+          </div>
         </div>
       </div>
+    </header>
+
       <nav>
         <div class="contanier">
           <div class="row">
@@ -68,32 +73,45 @@
 
         </div>
       </nav>
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12">
-          <h2>OFUNAM Segunda Temporada El Aleph: Festival de Arte y Ciencia Programa 6</h2>
-          <p>
-            Daye Lin, director huésped; Vlada Vassilieva, piano
-          </p>
-            Atmósferas de Ligeti, Prometeo. El poema del fuego de Scriabin y Sinfonía no. 3 Renana de Schumann
-          <p>
-            Charla introductoria al programa 19:00 horas
-          </p>
 
-            <h6>
-                <a href="http://www.cultura.unam.mx/Eventos/detalle/5464">Escúchalo en la Sala Nezahualcóyotl</a>
-            </h6>
+        <form>
+          <div class="row">
+            <div class="col-md-2">
+              <div class="form-group">
+                <label for="nombredeusuario">Nombre completo:</label>
+                <input type="text" class="form-control" id="nombredeusuario" placeholder="nombre apellido">
+              </div>
+              <div class="form-group">
+                <label for="correodeusuario">Correo electrónico</label>
+                <input type="email" class="form-control" id="correodeusuario" placeholder="name@example.com">
+              </div>
 
-        </div>
+            </div>
 
-      </div>
-      <div class="row">
-        <div class="col-md-12">
-        <img class="img-fluid" src="recursos/img/ofunam.png" alt="ofunam">
-        </div>
+          </div>
 
-      </div>
-    </div>
+          <h6>Elige tus eventos preferidos</h6>
 
-  </body>
-</html>
+          <div class="form-check">
+            <input class="form-check-input position-static" type="checkbox" id="blankCheckbox" value="option1" >Danza
+
+          </div>
+          <div class="form-check">
+            <input class="form-check-input position-static" type="checkbox" id="blankCheckbox" value="option2" >Música
+
+
+          </div>
+          <div class="form-check">
+            <input class="form-check-input position-static" type="checkbox" id="blankCheckbox" value="option3" >Teatro
+          </div>
+          <div class="form-check">
+            <input class="form-check-input position-static" type="checkbox" id="blankCheckbox" value="option3" >Cine
+          </div>
+          <div class="form-check">
+            <input class="form-check-input position-static" type="checkbox" id="blankCheckbox" value="option3" >Museos
+          </div>
+          <button type="submit" class="btn btn-primary">Enviar</button>
+        </form>
+
+      </body>
+    </html>
