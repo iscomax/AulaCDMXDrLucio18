@@ -1,0 +1,54 @@
+
+body{
+  background-image: url(../img/fondo.png);
+
+}
+header{
+  background-color: red;
+
+}
+
+nav{
+  background-color: #0b0a0a4d;
+
+}
+.nav-item > a:hover{
+   background-color: #1976D2;
+}
+table{
+
+  background-color: white;
+   border-collapse: collapse;
+}
+.td4 {
+  border: #BDBDBD 1px solid;
+}
+.Danza{
+  background-color: #303f9f;
+  color: white;
+
+
+}
+.margin{
+  padding: 50px 50px 50px 50px;
+}
+.margin2{
+margin-top: 500px;
+}
+
+.redes{
+  float: right;
+  margin-top: 5px;
+
+}
+
+.aside{
+
+  background-color: #fff0;
+
+
+}
+form{
+  margin-top: 50px;
+  margin-left: 50px;
+}

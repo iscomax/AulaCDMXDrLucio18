@@ -1,0 +1,114 @@
+C:\Users>cd ÁNGELES CAMPOS ORTIZ
+
+C:\Users\ÁNGELES CAMPOS ORTIZ>DIR
+ El volumen de la unidad C no tiene etiqueta.
+ El número de serie del volumen es: BE62-8CEF
+
+ Directorio de C:\Users\ÁNGELES CAMPOS ORTIZ
+
+05/05/2018  08:42 p. m.    <DIR>          .
+05/05/2018  08:42 p. m.    <DIR>          ..
+08/05/2018  10:16 a. m.                56 .gitconfig
+04/05/2018  10:22 a. m.    <DIR>          .vscode
+13/04/2018  04:32 p. m.    <DIR>          3D Objects
+12/01/2018  10:40 p. m.    <DIR>          Adobe Flash Builder 4.6
+13/04/2018  04:32 p. m.    <DIR>          Contacts
+05/05/2018  06:20 p. m.    <DIR>          Desktop
+04/05/2018  09:50 a. m.    <DIR>          Documents
+06/05/2018  01:02 a. m.    <DIR>          Downloads
+13/04/2018  04:32 p. m.    <DIR>          Favorites
+08/05/2018  09:46 a. m.    <DIR>          iCloudDrive
+24/04/2018  10:48 p. m.    <DIR>          Links
+13/04/2018  04:32 p. m.    <DIR>          Music
+01/05/2018  02:42 p. m.    <DIR>          OneDrive
+24/04/2018  10:47 p. m.    <DIR>          Pictures
+13/04/2018  04:32 p. m.    <DIR>          Saved Games
+13/04/2018  04:32 p. m.    <DIR>          Searches
+16/02/2018  12:54 p. m.           279,120 SKYPE URIEL.docx
+13/04/2018  04:32 p. m.    <DIR>          Videos
+               2 archivos        279,176 bytes
+              18 dirs  668,481,093,632 bytes libres
+
+C:\Users\ÁNGELES CAMPOS ORTIZ>CD.. ANGELES
+El sistema no puede encontrar la ruta especificada.
+
+C:\Users\ÁNGELES CAMPOS ORTIZ>CD ANGELES
+El sistema no puede encontrar la ruta especificada.
+
+C:\Users\ÁNGELES CAMPOS ORTIZ>DIR
+ El volumen de la unidad C no tiene etiqueta.
+ El número de serie del volumen es: BE62-8CEF
+
+ Directorio de C:\Users\ÁNGELES CAMPOS ORTIZ
+
+05/05/2018  08:42 p. m.    <DIR>          .
+05/05/2018  08:42 p. m.    <DIR>          ..
+08/05/2018  10:16 a. m.                56 .gitconfig
+04/05/2018  10:22 a. m.    <DIR>          .vscode
+13/04/2018  04:32 p. m.    <DIR>          3D Objects
+12/01/2018  10:40 p. m.    <DIR>          Adobe Flash Builder 4.6
+13/04/2018  04:32 p. m.    <DIR>          Contacts
+05/05/2018  06:20 p. m.    <DIR>          Desktop
+04/05/2018  09:50 a. m.    <DIR>          Documents
+06/05/2018  01:02 a. m.    <DIR>          Downloads
+13/04/2018  04:32 p. m.    <DIR>          Favorites
+08/05/2018  09:46 a. m.    <DIR>          iCloudDrive
+24/04/2018  10:48 p. m.    <DIR>          Links
+13/04/2018  04:32 p. m.    <DIR>          Music
+01/05/2018  02:42 p. m.    <DIR>          OneDrive
+24/04/2018  10:47 p. m.    <DIR>          Pictures
+13/04/2018  04:32 p. m.    <DIR>          Saved Games
+13/04/2018  04:32 p. m.    <DIR>          Searches
+16/02/2018  12:54 p. m.           279,120 SKYPE URIEL.docx
+13/04/2018  04:32 p. m.    <DIR>          Videos
+               2 archivos        279,176 bytes
+              18 dirs  668,481,093,632 bytes libres
+
+C:\Users\ÁNGELES CAMPOS ORTIZ>cd documentes
+El sistema no puede encontrar la ruta especificada.
+
+C:\Users\ÁNGELES CAMPOS ORTIZ>cd Documents
+
+C:\Users\ÁNGELES CAMPOS ORTIZ\Documents>CD ANGELES
+
+C:\Users\ÁNGELES CAMPOS ORTIZ\Documents\ANGELES>dir
+ El volumen de la unidad C no tiene etiqueta.
+ El número de serie del volumen es: BE62-8CEF
+
+ Directorio de C:\Users\ÁNGELES CAMPOS ORTIZ\Documents\ANGELES
+
+04/05/2018  12:52 p. m.    <DIR>          .
+04/05/2018  12:52 p. m.    <DIR>          ..
+04/05/2018  12:12 p. m.             6,234 AGPIC.jpg
+04/05/2018  10:01 a. m.               100 datos.txt
+04/05/2018  12:49 p. m.            42,733 FLACA.jpg
+04/05/2018  12:11 p. m.               109 pruebas2.txt
+04/05/2018  12:38 p. m.                 0 pruebas3.txt
+               5 archivos         49,176 bytes
+               2 dirs  668,480,741,376 bytes libres
+
+C:\Users\ÁNGELES CAMPOS ORTIZ\Documents\ANGELES>git clone https://github.com/ANGYCAMPOS/EXAMEN-HTLM08MAYO.git
+Cloning into 'EXAMEN-HTLM08MAYO'...
+remote: Counting objects: 3, done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), done.
+
+C:\Users\ÁNGELES CAMPOS ORTIZ\Documents\ANGELES>dir
+ El volumen de la unidad C no tiene etiqueta.
+ El número de serie del volumen es: BE62-8CEF
+
+ Directorio de C:\Users\ÁNGELES CAMPOS ORTIZ\Documents\ANGELES
+
+08/05/2018  10:25 a. m.    <DIR>          .
+08/05/2018  10:25 a. m.    <DIR>          ..
+04/05/2018  12:12 p. m.             6,234 AGPIC.jpg
+04/05/2018  10:01 a. m.               100 datos.txt
+08/05/2018  10:25 a. m.    <DIR>          EXAMEN-HTLM08MAYO
+04/05/2018  12:49 p. m.            42,733 FLACA.jpg
+04/05/2018  12:11 p. m.               109 pruebas2.txt
+04/05/2018  12:38 p. m.                 0 pruebas3.txt
+               5 archivos         49,176 bytes
+               3 dirs  668,480,913,408 bytes libres
+
+C:\Users\ÁNGELES CAMPOS ORTIZ\Documents\ANGELES>
