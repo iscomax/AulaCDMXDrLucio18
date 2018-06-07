@@ -10,14 +10,16 @@ class Forma {
 	}
       }
 class Estrella extends Forma{
- 	constructor(id, x, y, radio)
+ 	constructor(id, x, y, radio, lado)
 	{
 	 super(id, x, y)
 	 this.radio = radio
+	 this.lado = lado
 	}
        }
-var estrella = new Estrella(1, 4, 5, 10);
+var estrella = new Estrella(1, 4, 5, 10, 4);
 console.log ("El id de la estrella es:" + estrella.id)
 console.log("El x de la estrella es:" + estrella.id)
 console.log("El y de la estrella es:" + estrella.id)
-console.log("El radio de la estrella es de:" + estrella.radio) 
+console.log("El radio de la estrella es:" + estrella.radio) 
+console.log("El lado de la estrella es::" + estrella.lado)
