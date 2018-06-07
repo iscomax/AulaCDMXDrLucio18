@@ -1,9 +1,16 @@
 .imagenp{
     position: relative;
     display: inline-block;
-    width: 15%;
+    width: 10;
+    height: 15;
+    right: 0;
+    bottom: 0;
+
+        
+    
     
 }
+
 .imageno{
     position: absolute;
     width: 100%;
