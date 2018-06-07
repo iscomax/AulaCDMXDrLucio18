@@ -21,7 +21,7 @@ class Cuadrado extends Forma{
 
 }
 ´}
-var cuadrado=Cuadrado(1,5,7,10);
+var cuadrado= new Cuadrado(1,5,7,10);
 console.log(cuadrado.id);
 console.log(cuadrado.x);
 console.log(cuadrado.y);
