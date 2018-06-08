@@ -1,4 +1,4 @@
-var console=require ("console")
+var console=require ('console')
 
 class Forma
 {
@@ -22,9 +22,15 @@ class Cuadrado extends Forma
 	this.lado=lado
 
 	}
+	Area(lado)
+	{
+		var area=lado*lado
+		return area
+	}
 }
 var cuadrado= new Cuadrado(1,5,7,10);
 console.log(cuadrado.id);
 console.log(cuadrado.x);
 console.log(cuadrado.y);
 console.log(cuadrado.lado);
+console.log(cuadrado.Area(5));
