@@ -17,4 +17,4 @@ class Rectangle extends Forma {
     }
 }
 
-console.log(new Rectangle);
+new Rectangle(2, 5, 5, 16, 8);
