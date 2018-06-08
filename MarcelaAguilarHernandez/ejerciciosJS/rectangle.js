@@ -17,4 +17,4 @@ class Rectangle extends Forma {
     }
 }
 
-new Rectangle(2, 5, 5, 16, 8);
+var rectangle = new Rectangle(2, 5, 5, 16, 8);
