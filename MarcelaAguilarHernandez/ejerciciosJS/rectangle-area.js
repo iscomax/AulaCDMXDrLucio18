@@ -15,10 +15,10 @@ class Rectangle extends Forma {
         this.width = width
         this.height = height
     }
-    area(width, height){
-    console.log(`${width*height}`);
+    area(){
+    console.log(`${this.width * this.height}`);
     }
 }
 
 var rectangle = new Rectangle(2, 5, 5, 16, 8);
-rectangle.area(16, 8);
+rectangle.area();
