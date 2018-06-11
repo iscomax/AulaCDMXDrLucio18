@@ -34,3 +34,4 @@ console.log(cuadrado.x);
 console.log(cuadrado.y);
 console.log(cuadrado.lado);
 console.log(cuadrado.Area(5));
+//mensaje
