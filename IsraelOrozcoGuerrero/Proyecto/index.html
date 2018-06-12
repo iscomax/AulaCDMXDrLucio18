@@ -89,21 +89,21 @@
                 </table> 
            </form>
            <script > 
-            function Login(){ 
-            var done=0; 
-            var usuario=document.login.usuario.value; 
-            var password=document.login.password.value; 
-            if (usuario=="USUARIO1" && password=="CONTRASEÑA1") { 
-            window.location="exclusivos.html"; 
-            } 
-            if (usuario=="USUARIO2" && password=="CONTRASEÑA2") { 
-            window.location="exclusivos.html"; 
-            } 
-            if (usuario=="" || password==""||usuario!=="USUARIO1"||usuario!=="USUARIO2") { 
-                alert("Nombre de usuario o contraseña incorrecta");
-           
-            } 
-            } 
+         function Login(){ 
+var done=0; 
+var usuario=document.login.usuario.value; 
+var password=document.login.password.value; 
+if (usuario=="USUARIO1" && password=="CONTRASEÑA1") { 
+window.location="https://www.google.com/"; 
+} 
+if (usuario=="USUARIO2" && password=="CONTRASEÑA2") { 
+window.location="https://www.youtube.com/"; 
+} 
+if (usuario=="" && password=="") { 
+    console.log("Error");
+window.location="https://www.elegantthemes.com/blog/wp-content/uploads/2015/09/error-404-thumbnail.png"; 
+} 
+}  
         </script> 
             <div id="footer">
             
