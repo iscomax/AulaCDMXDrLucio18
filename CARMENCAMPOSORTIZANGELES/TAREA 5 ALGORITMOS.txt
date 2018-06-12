@@ -1,0 +1,150 @@
+
+ 
+ALGORITMO #1
+
+
+VAR NUM 1=(8)
+SyntaxError: unexpected token: identifier[Saber más] debugger eval code:1:4
+var num1 = 8
+undefined
+var num2 =6
+undefined
+var num3= 4
+undefined
+var promedio=(num1+num2+num3)/3
+undefined
+promedio
+6
+
+
+ 
+ALGORITMO #2
+
+var porcentaje
+undefined
+var p1 = 9
+undefined
+var p2 = 7
+undefined
+var p3 = 8
+undefined
+var promedio=((p1+p2+p3)/3)*0.55
+undefined
+var promedio = (p1+p2+p3)
+undefined
+var promedio=(p1+p2+p3)/3
+undefined
+promedio
+8
+
+en el agoritmo anterior no llame al resultado, que es el promedio y segui dictando 
+sentencias diferentes.Por lo que repito el ejercicio.
+
+
+var p1=9
+undefined
+var p2=6
+undefined
+var p3=10
+undefined
+var promedio=((p1+p2+p3)/3)*0.55
+undefined
+promedio
+4.583333333333334
+
+
+
+ 
+ALGORITMO #3
+
+SyntaxError: unexpected token: identifier[Saber más] debugger eval code:1:9
+val leer Gloria Mendez;
+SyntaxError: unexpected token: identifier[Saber más] debugger eval code:1:4
+var nombre= Gloria Mendez
+SyntaxError: unexpected token: identifier[Saber más] debugger eval code:1:19
+nombre
+ReferenceError: nombre is not defined[Saber más] debugger eval code:1:1
+var nombre="Gloria Mendez"
+undefined
+nombre
+"Gloria Mendez"
+var horas=50
+undefined
+horas
+50
+
+aprendiendo la sintaxis del examen, 
+repito ejercicio:
+
+Calcular sueldo de Empleados
+SyntaxError: unexpected token: identifier[Saber más] debugger eval code:1:9
+var nombre= "Gloria Mendez"
+undefined
+var entero=192
+undefined
+var sueldo= 50.30
+undefined
+
+var nombre= "Gloria Mendez"
+undefined
+var entero=192
+undefined
+var sueldo= 50.30
+undefined
+var nombre= "Gloria Mendez"
+undefined
+var horas=192
+undefined
+var sueldo= 50.30
+undefined
+var Sueldo=(192*50.30)
+undefined
+sueldo, no
+ReferenceError: no is not defined[Saber más] debugger eval code:1:9
+sueldo, nombre
+"Gloria Mendez"
+sueldo
+50.3
+nombre
+"Gloria Mendez"
+
+ALGORITMO #4
+var x=4
+undefined
+var y=(3*X*X)+(7*X)-15
+ReferenceError: X is not defined[Saber más] debugger eval code:1:5
+var X=4
+undefined
+var y=(3*X*X)+(7*X)-15
+undefined
+y
+61
+
+ALGORITMO #5
+
+var a=4
+undefined
+var b=8
+undefined
+var c=9
+undefined
+var d=3
+undefined
+var e=5
+undefined
+var f= 7
+undefined
+var x=(c*e)-(b*f)/(a*e)-(b*d)
+undefined
+y=(a*f)-(c*d)/(a*e)-(b*d)
+2.6499999999999986
+var y=(a*f)-(c*d)/(a*e)-(b*d)
+undefined
+x
+18.200000000000003
+y
+2.6499999999999986
+
+ALGORITMO #6
+
+

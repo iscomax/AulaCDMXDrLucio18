@@ -1,0 +1,2 @@
+nombre, apellido, apellido , edad, color favorito
+Frank, Lopez, Reyes,, navy 
