@@ -10,6 +10,7 @@ body {
     max-width: 940px; /*Indica el máximo tamaño del ancho*/
     margin: 0 auto; /*Margen arriba y abajo 0, izquierda derecha auto*/
     padding: 0 5%; /*Un valor= todo, dos=uno arr-ab, otro izq-der, cuatro valores= todos los lados separado*/
+}
 
 a {
     text-decoration: none; /*quita el subrayado a la liga contenida en la etiqueta a*/
