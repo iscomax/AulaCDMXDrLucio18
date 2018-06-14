@@ -1,0 +1,146 @@
+/*******************************************
+******************GENERAL*******************
+*******************************************/
+body {
+    font-family: 'Roboto Mono', monospace;
+
+}
+
+#wrapper {
+    max-width: 940px; /*Indica el máximo tamaño del ancho*/
+    margin: 0 auto; /*Margen arriba y abajo 0, izquierda derecha auto*/
+    padding: 0 5%; /*Un valor= todo, dos=uno arr-ab, otro izq-der, cuatro valores= todos los lados separado*/
+}
+
+a {
+    text-decoration: none; /*quita el subrayado a la liga contenida en la etiqueta a*/
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+/******************************************
+****************HEADING********************
+******************************************/
+
+#logo {
+    text-align: center;
+    margin: 0;
+    font-family: 'Eater', cursive;
+}
+
+h1 {
+    font-family: 'Roboto Mono', monospace;
+    margin: 15px 0;
+    font-size: 2.25em;
+    font-weight: normal;
+    line-height: 0.8em;
+    color: #fff;
+}
+
+/***************************************
+***********NAVIGATION*******************
+***************************************/
+
+nav {
+    text-align: center;
+    padding: 10px 0;
+    margin: 20px 0;
+}
+
+/***************************************
+*****************FOOTER*****************
+***************************************/
+
+footer {
+    font-size: 1.25em;
+    text-align: center;
+    padding-top: 50px;
+    color: #ccc;
+
+}
+
+/***************************************
+*****************COLOR******************
+***************************************/
+
+body {
+    background-color: #fff;
+    color: #999;
+}
+
+header {
+    background: #6ab47b;
+    border-color: #599a68;
+}
+
+h1, h2 {
+    color: #fff;
+}
+
+nav {
+    background: #599a68;
+}
+
+nav a, nav a:visited {
+    color: blue;
+}
+
+nav a.selected, nav a:hover {
+    color: #32673f
+}
+
+a {
+    color: #6ab47b;
+}
+/*
+a {
+    text-decoration: none; /*quita el subrayado a la liga contenida en la etiqueta a*/
+
+
+/*#wrapper {
+    max-width: 940px; /*Indica el máximo tamaño del ancho*/
+    /*margin: 0 auto; /*Margen arriba y abajo 0, izquierda derecha auto*/
+    /*padding: 0 5%; /*Un valor= todo, dos=uno arr-ab, otro izq-der, cuatro valores= todos los lados separado*/
+/*    background: orange;
+}
+
+#logo {
+    text-align: center;
+    margin: 0;
+}
+
+a {
+    color: #6ab47b; 
+}
+
+header {
+    background: #6ab47b;
+    border-color: #599a68;
+}
+
+h1, h2 {
+    color: #fff;
+}
+
+nav {
+    background: #599a68;
+}
+
+nav a, nav a:visited {
+    color: blue;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav a.selected, nav a:hover {
+    color: #32673f
+}
+
+body {
+    background-color: #fff;
+    color: #999;
+}
