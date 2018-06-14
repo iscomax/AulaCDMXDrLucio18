@@ -1,0 +1,173 @@
+/************************
+********* General *******
+*************************/
+body {
+    font-family: 'Marck Script', cursive;
+}
+#wrapper {
+    max-width: 940px;
+    margin: 0 auto;
+    padding: 0 5%;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+img {
+    max-width: 100%
+}
+/* Para el h3 de about*/
+h3{
+    margin: 0 0 1em 0;
+}
+
+/***********************
+********* Heading *******
+************************/
+header{
+    float: left;
+    margin: 0 0 30px 0;
+    padding: 5px 0 0 0;
+    width: 100%;
+}
+#logo {
+    text-align: center;
+    margin: 0;
+}
+nav ul{
+    list-style: none;
+    margin: 0 10px;
+    padding: 0;
+}
+nav li{
+    display:inline-block;
+}
+nav a{
+    font-weight: 800;
+    padding: 15px 10px;
+}
+
+h1 {
+    font-family: 'Dancing Script', cursive;
+    margin: 15px 0;
+    font-size: 1.75em;
+    font-weight: normal;
+    line-height: 0.8em;
+}
+
+h2 {
+    font-size: 1.25em;
+    margin: -5px 0 0;
+    font-weight: normal;
+}
+
+/***********************
+****** Navigation ******
+************************/
+
+nav {
+    text-align: center;
+    padding: 10px 0;
+    margin: 20px 0 0;
+}
+
+/***********************
+******** Footer ********
+************************/
+
+footer {
+    font-size: 1.25em;
+    text-align: center;
+    padding-top: 50px;
+    color: #f06141;
+}
+
+/***********************
+******** Gallery ********
+************************/
+
+#gallery {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#gallery li {
+    float: left;
+    width: 45%;
+    margin: 2.5%;
+    /*Este es el estilo que se usa para poder mostrar 2 imagenes
+    (45*2)+(2.5*4)=100% con esto el siguiente par de imagenes las
+    muestra*/
+    background: #f5f5f5;
+    color: #bdc3c7;
+}
+
+#gallery li a p { /*Anidando al elemento destino si no se traslapan los estilos*/
+    margin:0;
+    padding: 5%;
+    font-size: 0.75em;
+    color: #bdc3c7;
+}
+/***********************
+******** About ********
+************************/
+ .profile-photo{
+     display:block;
+     max-width: 150px;
+     margin: 0 auto 30px;
+     border-radius: 100%;
+
+ }
+/***********************
+********* Contact *******
+************************/
+.contact-info{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: 0.9em;
+}
+
+.contact-info a{
+    display: block;
+    margin: 0 0 10 px;
+}
+/***********************
+********* Colors *******
+************************/
+
+body {
+    background-color: #f0b941;
+    color: #f06141;
+}
+
+header {
+    background: #416af0;
+    border-color: #416af9;
+}
+
+h1, h2 {
+    color: #fff;
+}
+
+nav {
+    background: #f06141;
+}
+
+nav a, nav a:visited {
+    color:#f0b941;
+}
+
+nav a.selected, nav a:hover{
+    color: #f0b990;
+}
+
+a {
+    color: #f06141;
+}
