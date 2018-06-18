@@ -1,10 +1,12 @@
 
 body{
   background-image: url(../img/fondo.png);
+  font-family: 'Shrikhand', cursive;
+
 
 }
 header{
-  background-color: red;
+  background-color: #4800ffad;
 
 }
 
@@ -20,6 +22,13 @@ table{
   background-color: white;
    border-collapse: collapse;
 }
+.blogtitulo{
+  text-align: center;
+  font-family: 'Pacifico', cursive;
+
+
+}
+
 .td4 {
   border: #BDBDBD 1px solid;
 }
@@ -47,8 +56,4 @@ margin-top: 500px;
   background-color: #fff0;
 
 
-}
-form{
-  margin-top: 50px;
-  margin-left: 50px;
 }

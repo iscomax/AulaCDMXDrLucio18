@@ -1,19 +1,23 @@
 <!DOCTYPE html>
-<html lang="es" dir="ltr">
+<html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
     <title>blog</title>
       <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous"/>
+
+      <link rel="stylesheet" href="recursos/css/animate.css">
       <link rel="stylesheet" href="recursos/css/style.css">
-      <style>#botones-para-compartir { text-align:center;}.likedini:hover, .facebooki:hover, .twitteri:hover, .googlei:hover,.pinteresti:hover {border-radius:25px 25px 25px 25px;transition:all .3s ease-out;box-shadow: 0px 0px 5px #000; /* Sombra */-moz-transition: all .5s;-webkit-transition: all .5s;-o-transition: all .5s;}.likedini, .facebooki, .twitteri, .googlei, .pinteresti {transition:all .3s ease-out;-moz-transition: all .5s;-webkit-transition: all .5s;-o-transition: all .5s;}</style>
+
+      <style> #botones-para-compartir { text-align:center;}.likedini:hover, .facebooki:hover, .twitteri:hover, .googlei:hover,.pinteresti:hover {border-radius:25px 25px 25px 25px;transition:all .3s ease-out;box-shadow: 0px 0px 5px #000; /* Sombra */-moz-transition: all .5s;-webkit-transition: all .5s;-o-transition: all .5s;}.likedini, .facebooki, .twitteri, .googlei, .pinteresti {transition:all .3s ease-out;-moz-transition: all .5s;-webkit-transition: all .5s;-o-transition: all .5s;}</style>
+      <link href="https://fonts.googleapis.com/css?family=Pacifico|Shrikhand" rel="stylesheet">
   </head>
   <body>
     <header>
 
       <div class="contanier">
         <div class="row uno">
-          <div class="col-sm-12 ">
-            <h1>Blog Cultural</h1>
+          <div class="col-sm-12 blogtitulo ">
+            <marquee><h1>Tuláakal </h1></marquee>
           </div>
         </div>
       </div>
@@ -25,7 +29,7 @@
             <div class="col-md-8">
               <ul class=" nav justify-content-center">
                 <li class="nav-item">
-                  <a class="nav-link text-body " href="index.html">Inicio</a>
+                  <a class="nav-link text-body " href="#">Inicio</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link text-body" href="teatro.html">Teatro</a>
@@ -34,7 +38,7 @@
                   <a class="nav-link text-body" href="museos.html">Museos</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link text-body" href="musica.html">Música</a>
+                  <a class="nav-link text-body" href="musica.html">Musica</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link text-body" href="danza.html">Danza</a>
@@ -48,11 +52,11 @@
 
             <div class="col-md-2">
                 <div id="botones-para-compartir" class="redes">
-                    <a href="http://www.facebook.com" target="_blank" onclick="window.open("http://www.facebook.com/sharer.php?u=http://www.inovablog.com/","gplusshare","toolbar=0,status=0,width=548,height=325");" rel="nofollow" title="Compartir en Facebook"><img alt="compartir en facebook" class="facebooki" height="25" src="http://4.bp.blogspot.com/-2W3Fr7nS-T0/Uh1HrkLe5wI/AAAAAAAAAiQ/0-_aC8Yici4/s1600/facebook.png" title="compartir en facebook" width="25" /></a>
-                    <a href="https://plus.google.com/discover" target="_blank" onclick="window.open("https://plus.google.com/share?url=http://www.inovablog.com/","gplusshare","toolbar=0,status=0,width=548,height=325");" rel="nofollow" title="Compartir en Google+"><img alt="compartir en google+" class="googlei" height="25" src="http://3.bp.blogspot.com/-Ioy5JWv_nwk/Uh1HlxE8urI/AAAAAAAAAhc/q_uUabDAhsU/s1600/Google%252B%2Balt.png" title="compartir en google+" width="25" /></a>
-                    <a href="https://twitter.com/" target="_blank" onclick="window.open("http://twitter.com/home?status=http://www.inovablog.com/","gplusshare","toolbar=0,status=0,width=548,height=325");" rel="nofollow" title="Compartir en Google+"><img alt="compartir en twitter" class="twitteri" height="25" src="http://3.bp.blogspot.com/-TgonF6vzJs0/Uh1Hmxqk8aI/AAAAAAAAAiA/MdT4pRWKRbI/s1600/twitter.png" title="compartir en twitter" width="25" /></a>
-                    <a href="https://www.pinterest.com" target="_blank" onclick="window.open("https://www.pinterest.com/pin/create/button/?url=http://www.inovablog.com/","gplusshare","toolbar=0,status=0,width=548,height=325");" rel="nofollow" title="Compartir en Google+"><img alt="compartir en pinterest" class="pinteresti" height="25" src="http://3.bp.blogspot.com/-v45z5di8z9o/Uh1HmsgZY7I/AAAAAAAAAh8/-gQOHJtZ884/s1600/pinterest.png" title="compartir en pinterest" width="25" /></a>
-                    <a href="https://www.linkedin.com/" target="_blank" onclick="window.open("http://www.linkedin.com/shareArticle?url=http://www.inovablog.com/","gplusshare","toolbar=0,status=0,width=548,height=325");" rel="nofollow" title="Compartir en Google+"><img alt="compartir en likedin" class="likedini" height="25" src="http://2.bp.blogspot.com/-NeWo2YBWX-8/Uh1HmSwLlWI/AAAAAAAAAhs/Y3orDyf_EMA/s1600/linkedin.png" title="compartir en likedin" width="25" /></a>
+                    <a href="http://www.facebook.com" onclick="window.open("http://www.facebook.com/sharer.php?u=http://www.inovablog.com/","gplusshare","toolbar=0,status=0,width=548,height=325");" rel="nofollow" title="Compartir en Facebook"><img alt="compartir en facebook" class="facebooki" height="25" src="http://4.bp.blogspot.com/-2W3Fr7nS-T0/Uh1HrkLe5wI/AAAAAAAAAiQ/0-_aC8Yici4/s1600/facebook.png" title="compartir en facebook" width="25" /></a>
+                    <a href="javascript:void(0);" onclick="window.open("https://plus.google.com/share?url=http://www.inovablog.com/","gplusshare","toolbar=0,status=0,width=548,height=325");" rel="nofollow" title="Compartir en Google+"><img alt="compartir en google+" class="googlei" height="25" src="http://3.bp.blogspot.com/-Ioy5JWv_nwk/Uh1HlxE8urI/AAAAAAAAAhc/q_uUabDAhsU/s1600/Google%252B%2Balt.png" title="compartir en google+" width="25" /></a>
+                    <a href="javascript:void(0);" onclick="window.open("http://twitter.com/home?status=http://www.inovablog.com/","gplusshare","toolbar=0,status=0,width=548,height=325");" rel="nofollow" title="Compartir en Google+"><img alt="compartir en twitter" class="twitteri" height="25" src="http://3.bp.blogspot.com/-TgonF6vzJs0/Uh1Hmxqk8aI/AAAAAAAAAiA/MdT4pRWKRbI/s1600/twitter.png" title="compartir en twitter" width="25" /></a>
+                    <a href="javascript:void(0);" onclick="window.open("https://www.pinterest.com/pin/create/button/?url=http://www.inovablog.com/","gplusshare","toolbar=0,status=0,width=548,height=325");" rel="nofollow" title="Compartir en Google+"><img alt="compartir en pinterest" class="pinteresti" height="25" src="http://3.bp.blogspot.com/-v45z5di8z9o/Uh1HmsgZY7I/AAAAAAAAAh8/-gQOHJtZ884/s1600/pinterest.png" title="compartir en pinterest" width="25" /></a>
+                    <a href="javascript:void(0);" onclick="window.open("http://www.linkedin.com/shareArticle?url=http://www.inovablog.com/","gplusshare","toolbar=0,status=0,width=548,height=325");" rel="nofollow" title="Compartir en Google+"><img alt="compartir en likedin" class="likedini" height="25" src="http://2.bp.blogspot.com/-NeWo2YBWX-8/Uh1HmSwLlWI/AAAAAAAAAhs/Y3orDyf_EMA/s1600/linkedin.png" title="compartir en likedin" width="25" /></a>
                 </div>
 
             </div>
@@ -60,10 +64,10 @@
             <div class="col-md-2">
               <ul class="nav">
                 <li class="nav-item ">
-                  <a class="nav-link text-body" href="form.html">Regístrate</a>
+                  <a class="nav-link text-body" href="#">Registrate</a>
                 </li>
-                <li class="nav-item "> 
-                  <a class="nav-link text-body" href="contacto.html">Contacto</a>
+                <li class="nav-item ">
+                  <a class="nav-link text-body" href="#">Contacto</a>
                 </li>
 
               </ul>
@@ -83,18 +87,18 @@
                 <td><h6><center>Nuestros patrocinadores<center></h6></td>
               </tr>
               <tr>
-                <td>
+                <td class="animated rotateIn">
                   <a href="https://boletoscultura.unam.mx/" target="_blank">
-                    <img class="img-fluid" src="recursos/img/unam.png" width="400px" alt="edipo"/>
+                    <img class="img-fluid" src="recursos/img/unam.png" width="500px" alt="edipo"/>
                   </a>
                 </td>
               </tr>
               <tr>
-                <td>
+                <td class="animated rotateIn" >
                   <br>
-                  <a class="" href="http://www.cinetecanacional.net/" target="_blank">
+                  <a class="" href="http://www.cinetecanacional.net/"   witarget="_blank">
 
-                      <img class="img-fluid" src="recursos/img/cineteca.jpg" width="400px" alt="cineteca"/>
+                      <img class="img-fluid" src="recursos/img/cineteca.jpg" width="500px" alt="cineteca"/>
                   </a>
                 </td>
 
@@ -102,16 +106,17 @@
             </table>
           </div>
           <div class="col-md-3 margin">
-              <table>
+              <table class="animated fadeInUp">
                   <tr>
                     <td colspan="3" class="Danza">Danza</td>
 
 
                   </tr>
                 <tr>
-                  <td colspan="3">
+                  <td colspan="3" >
 
-                    <a href="danza.html"><img class="img-fluid" src="recursos/img/edipo.jpg" width="400px" alt="edipo"/></a>
+
+                    <a href="danza.html"><img class="img-fluid" src="recursos/img/edipo.jpg" width="500" alt="edipo"/></a>
                   </td>
                 </tr>
                 <tr>
@@ -128,7 +133,7 @@
               </table>
           </div>
           <div class="col-md-3 margin">
-              <table>
+              <table class="animated fadeInUp">
                   <tr>
                     <td colspan="3" class="Danza">Museos</td>
 
@@ -137,7 +142,7 @@
                 <tr>
                   <td colspan="3">
 
-                    <a href="museos.html"><img class="img-fluid" src="recursos/img/vaticano.jpg" width="400px"  alt="Vaticano"/></a>
+                    <a href="museos.html"><img class="img-fluid" src="recursos/img/vaticano.jpg" width="500px"  alt="Vaticano"/></a>
                   </td>
                 </tr>
                 <tr>
@@ -154,7 +159,7 @@
               </table>
           </div>
           <div class="col-md-3 margin">
-              <table>
+              <table class="animated fadeInUp">
                   <tr>
                     <td colspan="3" class="Danza">Teatro</td>
 
@@ -163,7 +168,7 @@
                 <tr>
                   <td colspan="3">
 
-                    <a href="teatro.html"><img class="img-fluid" src="recursos/img/king.jpg" width="400px" alt="King"/></a>
+                    <a href="teatro.html"><img class="img-fluid" src="recursos/img/king.jpg" width="500px" alt="King"/></a>
                   </td>
                 </tr>
                 <tr>
@@ -187,7 +192,7 @@
               <div class="col-md-3 margin">
                 <table class="aside">
                   <tr>
-                    <td>
+                    <td class="animated rotateIn">
                       <a class="" href="http://www.gandhi.com.mx/" target="_blank">
 
                           <img class="img-fluid" src="recursos/img/gandhi.jpg" width="400px" alt="cocacola" style=""/>
@@ -195,7 +200,7 @@
                     </td>
                   </tr>
                   <tr class="">
-                    <td class="">
+                    <td class="animated rotateIn">
                       <br>
                       <a class="" href="https://www.coca-colamexico.com.mx" target="_blank">
 
@@ -207,7 +212,7 @@
                 </table>
               </div>
               <div class="col-md-3 margin">
-                  <table class="cine">
+                  <table class="cine animated fadeInUp">
                       <tr>
                         <td colspan="3" class="Danza">Cine</td>
 
@@ -216,7 +221,7 @@
                     <tr>
                       <td colspan="3">
 
-                        <a href="cine.html"><img class="img-fluid" src="recursos/img/sueño.jpg" width="400px"  alt="sueño"/></a>
+                        <a href="cine.html"><img class="img-fluid" src="recursos/img/sueño.jpg" width="300px"  alt="sueño"/></a>
                       </td>
                     </tr>
                     <tr>
@@ -236,7 +241,7 @@
 
               </div>
               <div class="col-md-3 margin">
-                  <table class="musica">
+                  <table class="musica animated fadeInUp">
                       <tr>
                         <td colspan="3" class="Danza">Música</td>
 
