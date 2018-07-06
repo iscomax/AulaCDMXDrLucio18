@@ -14,6 +14,8 @@
 
 [Carousel con bootstrap](https://github.com/iscomax/carousel-bootstrap)
 
+[Carousel con Angular](https://github.com/iscomax/carousel-angular)
+
 
 
 
